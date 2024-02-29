@@ -1,0 +1,10 @@
+/* ID Selector */
+h1#id1 {
+    font-size: 50px;
+    color: green;
+}
+
+p#Para {
+    color: blue;
+}
+
