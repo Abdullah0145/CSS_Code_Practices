@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/* Position-relative */
+div#box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+/* position-absolute */
+div#cube {
+    position: absolute;
+    right: 40%;
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+/* DAY 8 */
+/* Sheriyan's Coding School */

@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+div#main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+div.left {
+    width: 50%;
+    height: 100%;
+    background-image: url(assets/pexels-luis-quintero-2148217.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+div.left div.overlay1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.412);
+    position: relative;
+}
+
+div.center1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+div.center1 h1 {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+div.center1 h1:hover {
+    color: chocolate;
+}
+
+div.center1 p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+div.center1 p:hover {
+    color: chartreuse;
+}
+
+div.center1 button {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: 1.5px solid #fff;
+}
+
+div.center1 button:hover {
+    background-color: cyan;
+    color: black;
+}
+
+div.right {
+    width: 50%;
+    height: 100%;
+    background-image: url(assets/pexels-ata-daftarifard-20440051.jpg);
+    background-size: cover;
+}
+
+div.right div.overlay2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.156);
+    position: relative;
+}
+
+div.overlay2 div.center2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(107, 3, 31);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.center2 h1 {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+div.center2 h1:hover {
+    color: rgb(74, 231, 6);
+}
+
+div.center2 p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+div.center2 p:hover {
+    color: rgb(9, 210, 246);
+}
+
+div.center2 button {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: rgb(107, 3, 31);
+    border: 1.5px solid rgb(107, 3, 31);
+}
+
+div.center2 button:hover {
+    background-color: cornsilk;
+    color: black;
+}
+
+/* DAY 7 */
+/* Sheriyans Coding School */
+

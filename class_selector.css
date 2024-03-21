@@ -14,3 +14,10 @@
 .hello {
     font-size: 40px;
 }
+
+/* ID Selector */
+#id1 {
+    background-color: aqua;
+}
+
+/* PW Skills */

@@ -2,9 +2,12 @@
 h1#id1 {
     font-size: 50px;
     color: green;
+    background-color: #808080;
 }
 
 p#Para {
     color: blue;
+    background-color: #000;
 }
 
+/* PW Skills */
