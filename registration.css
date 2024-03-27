@@ -1,0 +1,51 @@
+/* Registration form */
+div.parent-div div.registrationform {
+    margin-left: 60px;
+}
+/* parent-class */
+div.parent-div {
+    width: 400px;
+    height: 450px;
+    margin-left: 350px;
+    margin-top: 20px;
+    background-color: darkmagenta;
+    border-radius: 5px;
+}
+
+/* for Name */
+div.parent-div input.text-name{
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+
+/* for Mobile Number */
+div.parent-div input.text-mobilenumber {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+/* for email*/
+div.parent-div input.text-email {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+/* for Address */
+div.parent-div input.text-address {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+/* for Gender */
+div.radio-gender {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+/* for submit */
+div.parent-div input.submit {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
