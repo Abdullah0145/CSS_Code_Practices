@@ -1,0 +1,87 @@
+/*Main div Section*/
+div.main-section {
+    width: 50vw;
+    height: 110vh;
+}
+
+div.flex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* first Section */
+div.first-Section {
+    padding: 1%; 
+}
+
+div.first-Section button.btn {
+    width: 3vw;
+    height: 5vh;
+    background-color: yellow;
+    border: 0;
+}
+
+div.first-Section .para {
+    font-size: smaller;
+    margin-left: 3em;
+}
+
+div.first-Section .icon  {
+    margin-left: 1.5em;
+    font-size: smaller;
+}
+
+/* Second Section */
+div.Second-Section {
+    padding: 1%; 
+}
+
+div.Second-Section .para {
+    font-size: smaller;
+    margin-left: 3em;
+}
+
+div.Second-Section .icon  {
+    margin-left: 1.5em;
+    font-size: smaller;
+}
+
+div.Second-Section .paragraph {
+    font-size: smaller;
+    font-weight: bold;
+    margin-left: 3em;
+    color: green;
+}
+
+/* Third Section */
+div.Third-Section {
+    padding: 1%; 
+}
+
+div.Third-Section button.btn {
+    width: 3vw;
+    height: 5vh;
+    background-color: yellow;
+    border: 0;
+}
+
+div.Third-Section .para {
+    font-size: smaller;
+    margin-left: 3em;
+}
+
+div.Third-Section span.icon  {
+    font-size: smaller;
+    margin-left: 2.3em;  
+}
+
+div.Third-Section .paragraph-1 {
+    font-size: smaller;
+    font-weight: bold;
+    color: green;
+}
+
+div.Third-Section .paras-1 {
+    font-size: smaller;
+    margin-left: 3em;
+}

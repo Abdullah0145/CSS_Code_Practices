@@ -1,4 +1,4 @@
-/*Class Selector*/
+/*Class Selector (.)*/
 .head {
     color: #460ccc;
 }
@@ -15,7 +15,7 @@
     font-size: 40px;
 }
 
-/* ID Selector */
+/* ID Selector (#)*/
 #id1 {
     background-color: aqua;
 }

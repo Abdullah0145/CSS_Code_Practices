@@ -1,0 +1,5 @@
+/* General sibling selector */
+section ~ p {
+    color: #ff8c00;
+    font-size: 30px;
+}

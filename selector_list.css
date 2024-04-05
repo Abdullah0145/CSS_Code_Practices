@@ -1,4 +1,4 @@
-/* Selector list */
+/* Selector list (.class1, .class2, .class3, or #id1, #id2, #id3, or p, h1, span, div, etc..) Multiple Classes / IDs / Elements Selector */
 .class1 , .class2 , .class3 {
     color: indianred;
     font-size: 55px;

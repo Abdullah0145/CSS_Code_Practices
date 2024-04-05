@@ -1,0 +1,15 @@
+/* Attribute Selector / [attribute="value"] */
+[target="_blank"] {
+    color: darkmagenta;
+    text-decoration: none;
+}
+
+/* Attribute Selector / [attribute~="value"] */
+[alt~="PW"] {
+    color: yellowgreen;
+}
+
+/* Attribute Selector / [attribute~="value"] */
+[alt="skills"] {
+    color: blue;
+}

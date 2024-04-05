@@ -1,0 +1,7 @@
+/* Child selector */
+h1 > p {
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* PW Skills */
