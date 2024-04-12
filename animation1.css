@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    animation-name: main-1;
+    background-size: 100% 100%;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid green;
+    /* background-color: aqua; */
+    animation-name: anim-2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /* animation-direction:alternate; */
+    animation-timing-function: ease-out;
+    animation-delay:5s;
+    position: relative;
+}
+
+@keyframes anim-2{
+    0%{
+       background-color: blue;
+       width: 100px; 
+       transform:rotate(0deg);
+       left: 0px;
+    }
+
+    40%{
+        background-color: chartreuse;
+        width: 200px;
+        left: 100px;
+    }
+    70%{
+        background-color: chocolate;
+        width: 10px;
+        top: 150px;
+    }
+    88%{
+        background-color: rebeccapurple;
+        width: 30px;
+        left: 0;
+    }
+    100%{
+        background-color: red;
+        width: 500px;
+        transform:rotate(360deg);
+        bottom: 150px;
+    }
+}
+
+.d1{
+       margin-left:0;
+}
+.d2{
+    padding:50px;
+    margin-left:200px;
+}
+
+.d3{
+    padding:10px;
+    margin-left:500px;
+}
+
+@keyframes main-1 {
+    0%{
+     background-image: url('https://www.adobe.com/content/dam/cc/us/en/creativecloud/illustration-adobe-illustration/how-to-draw-trees/draw-trees_fb-img_1200x800.jpg');
+    }
+    50%{
+     background-image: url('data:image/jpeg;base64,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');
+    }
+    100%{
+     background-image: url("https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/40654e97-f473-4120-99a3-5d894f48e680/3d301c98-77c0-4af1-9cf9-7e96f41b02a9/1280x720/match/image.jpg");
+    }
+}

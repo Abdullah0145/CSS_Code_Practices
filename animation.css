@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+
+.text{
+    color:white;
+    animation-name:anim-1;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    position:relative;
+}
+
+@keyframes anim-1{
+     0%{
+         left:500px;
+         background-color:skyblue;
+     }
+     30%{
+          top:500px;
+     }
+     60%{
+          left:0px;
+     }
+     100%{
+          top:0px;
+          background-color:red;
+     }
+}
+
